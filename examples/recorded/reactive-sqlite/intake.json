@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "field": "Coordinates",
+      "value": "io.example:reactive-sqlite:0.9.3"
+    },
+    {
+      "field": "License",
+      "value": "Apache-2.0"
+    },
+    {
+      "field": "Latest release",
+      "value": "0.9.3, 2026-08-28"
+    },
+    {
+      "field": "Releases in last 12 months",
+      "value": "5"
+    },
+    {
+      "field": "Active maintainers",
+      "value": "3 (all employed by the same company)"
+    },
+    {
+      "field": "Median issue response",
+      "value": "9 days"
+    },
+    {
+      "field": "Platforms",
+      "value": "JVM"
+    },
+    {
+      "field": "Kotlin Multiplatform",
+      "value": "No"
+    },
+    {
+      "field": "Native code",
+      "value": "Bundles sqlite3 for linux-x86_64, linux-aarch64, macos-aarch64, windows-x86_64"
+    },
+    {
+      "field": "Signed artifacts",
+      "value": "Yes"
+    },
+    {
+      "field": "Transitive dependencies",
+      "value": "14"
+    },
+    {
+      "field": "Uses reflection",
+      "value": "Only for optional row-mapping helpers"
+    },
+    {
+      "field": "Known advisories",
+      "value": "None published"
+    },
+    {
+      "field": "Why the team wants it",
+      "value": "Non-blocking SQLite access with Flow queries for an edge cache service"
+    }
+  ]
+}

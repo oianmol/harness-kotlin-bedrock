@@ -1,0 +1,6 @@
+{
+  "openAdvisories": [],
+  "signedArtifacts": "[NOT FOUND IN SOURCE]",
+  "transitiveDependencies": "[NOT FOUND IN SOURCE]",
+  "summary": "The intake records no advisories, but the repository has no security policy and no advisory entries, so 'none' here means 'unknown', not 'clean'. Signing and the dependency tree are not stated."
+}

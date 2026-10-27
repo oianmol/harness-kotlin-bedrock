@@ -1,0 +1,7 @@
+{
+  "rulesChecked" : 5,
+  "triggered" : [ {
+    "ruleId" : "GR-003",
+    "evidence" : "EXAMPLE-ADV-2026-0042 (CVSS 9.8, XXE via external entity resolution enabled by default) affects <= 3.1.4, the latest release, and is listed as 'No fix released'. Maintainer comment 2026-08-14: 'Working on it, no ETA.'"
+  } ]
+}

@@ -1,0 +1,10 @@
+.gradle/
+build/
+.idea/
+*.iml
+.kotlin/
+.env
+out/
+.DS_Store
+.claude/settings.local.json
+evaluations/

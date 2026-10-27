@@ -1,0 +1,6 @@
+{
+  "openAdvisories": [],
+  "signedArtifacts": "Yes (Sigstore)",
+  "transitiveDependencies": "2 (kotlinx-serialization-core, kotlinx-datetime)",
+  "summary": "No open advisories against 2.4.1. The only published advisory (EXAMPLE-ADV-2025-0731, CVSS 4.1) was fixed in 2.2.0 six days after report. Signed artifacts and a two-dependency tree keep the supply-chain surface small."
+}

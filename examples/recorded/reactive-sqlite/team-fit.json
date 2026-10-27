@@ -1,0 +1,13 @@
+{
+  "matches": [
+    {
+      "engineer": "Alex",
+      "evidence": "Shipped R2DBC drivers in production, a comparable non-blocking database access pattern.",
+      "priorCompany": true
+    }
+  ],
+  "relatedDecisions": [
+    "decisions/pdfkit-native.md"
+  ],
+  "summary": "Nobody has shipped reactive-sqlite. Alex's closest experience is R2DBC at a previous company. pdfkit-native was rejected for missing aarch64 binaries; this library does ship our targets, so that lesson is satisfied here."
+}

@@ -1,0 +1,54 @@
+{
+  "dimensions": [
+    {
+      "dimension": "Maintenance health",
+      "deductions": [
+        {
+          "points": 4,
+          "reason": "No changelog or migration notes for major versions",
+          "evidence": "'No changelog for 0.x releases; release notes are commit lists'"
+        },
+        {
+          "points": 6,
+          "reason": "Single company controls all commits",
+          "evidence": "'3 (all employed by the same company)'"
+        }
+      ]
+    },
+    {
+      "dimension": "Security posture",
+      "deductions": []
+    },
+    {
+      "dimension": "Stack fit",
+      "deductions": [
+        {
+          "points": 6,
+          "reason": "Overlaps a library already on the approved list",
+          "evidence": "Exposed is approved for SQL; this adds a second database access library, justified only for non-blocking SQLite"
+        }
+      ]
+    },
+    {
+      "dimension": "Team familiarity",
+      "deductions": [
+        {
+          "points": 10,
+          "reason": "Nobody on the team has shipped production code with it",
+          "evidence": "Team-fit: 'Nobody has shipped reactive-sqlite'"
+        },
+        {
+          "points": 4,
+          "reason": "No related past decision in decisions/ to learn from",
+          "evidence": "No prior decision on SQLite or non-blocking database access"
+        }
+      ]
+    }
+  ],
+  "risks": [
+    "Pre-1.0: APIs may change between minor versions, and there is no changelog to plan upgrades against.",
+    "Single-company control: a relicense or a change of priorities at that company leaves us stranded.",
+    "Bundled sqlite3 must be re-released for each upstream sqlite security fix."
+  ],
+  "recommendation": "Trial it in the edge cache service only, behind our own repository interface so it can be swapped. Avoid the reflection-based row-mapping helpers. Revisit at 1.0: a changelog and a second contributing organisation would move this to ADOPT; a breaking minor release without notes would move it to REJECT."
+}

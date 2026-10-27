@@ -1,0 +1,7 @@
+{
+  "rulesChecked" : 5,
+  "triggered" : [ {
+    "ruleId" : "GR-002",
+    "evidence" : "Latest release 1.8.0 on 2023-08-11, more than 24 months before the 2026-10-22 intake date. Zero releases and zero active maintainers in the last 12 months; last commit 2023-09-02."
+  } ]
+}

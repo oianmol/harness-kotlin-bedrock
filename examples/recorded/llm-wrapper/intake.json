@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "field": "Coordinates",
+      "value": "io.example:llm-wrapper:0.3.0"
+    },
+    {
+      "field": "License",
+      "value": "MIT"
+    },
+    {
+      "field": "Latest release",
+      "value": "0.3.0, 2026-10-01"
+    },
+    {
+      "field": "Releases in last 12 months",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Active maintainers",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Median issue response",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Platforms",
+      "value": "JVM"
+    },
+    {
+      "field": "Kotlin Multiplatform",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Native code",
+      "value": "None"
+    },
+    {
+      "field": "Signed artifacts",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Transitive dependencies",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Uses reflection",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Known advisories",
+      "value": "[NOT FOUND IN SOURCE]"
+    },
+    {
+      "field": "Why the team wants it",
+      "value": "Prototype a summarisation feature next sprint with one API across LLM providers"
+    }
+  ]
+}

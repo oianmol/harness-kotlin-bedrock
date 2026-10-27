@@ -1,0 +1,7 @@
+{
+  "rulesChecked" : 5,
+  "triggered" : [ {
+    "ruleId" : "GR-001",
+    "evidence" : "License is AGPL-3.0-or-later; README states that distributing an application that links chartkit requires releasing that application's source under the AGPL. AGPL is explicitly listed in GR-001 and is not on the stack-profile allowlist."
+  } ]
+}

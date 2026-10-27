@@ -1,0 +1,5 @@
+{
+  "matches": [],
+  "relatedDecisions": [],
+  "summary": "Nobody on the team has shipped llm-wrapper or a comparable multi-provider LLM client, and there are no related past decisions."
+}

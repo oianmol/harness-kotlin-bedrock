@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "field": "Coordinates",
+      "value": "io.example:serialization-extras:2.4.1"
+    },
+    {
+      "field": "License",
+      "value": "Apache-2.0"
+    },
+    {
+      "field": "Latest release",
+      "value": "2.4.1, 2026-10-09"
+    },
+    {
+      "field": "Releases in last 12 months",
+      "value": "11"
+    },
+    {
+      "field": "Active maintainers",
+      "value": "6 (across 3 companies)"
+    },
+    {
+      "field": "Median issue response",
+      "value": "3 days"
+    },
+    {
+      "field": "Platforms",
+      "value": "JVM, Android, iOS, JS"
+    },
+    {
+      "field": "Kotlin Multiplatform",
+      "value": "Yes (jvm, android, iosArm64, iosSimulatorArm64)"
+    },
+    {
+      "field": "Native code",
+      "value": "None"
+    },
+    {
+      "field": "Signed artifacts",
+      "value": "Yes (Sigstore)"
+    },
+    {
+      "field": "Transitive dependencies",
+      "value": "2 (kotlinx-serialization-core, kotlinx-datetime)"
+    },
+    {
+      "field": "Uses reflection",
+      "value": "No (compiler-plugin based)"
+    },
+    {
+      "field": "Known advisories",
+      "value": "EXAMPLE-ADV-2025-0731, CVSS 4.1, fixed in 2.2.0"
+    },
+    {
+      "field": "Why the team wants it",
+      "value": "Replace ~600 lines of custom serializers in the shared KMP networking module"
+    }
+  ]
+}

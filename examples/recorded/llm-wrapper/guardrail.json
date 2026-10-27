@@ -1,0 +1,7 @@
+{
+  "rulesChecked" : 6,
+  "triggered" : [ {
+    "ruleId" : "GR-006",
+    "evidence" : "Active maintainer count is blank in the intake, so the bus-factor requirement cannot be shown to be met."
+  } ]
+}

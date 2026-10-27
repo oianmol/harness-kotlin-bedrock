@@ -1,0 +1,14 @@
+{
+  "matches": [
+    {
+      "engineer": "Riley",
+      "evidence": "Ships kotlinx.serialization custom serializers in our KMP shared modules; this library builds on the same compiler plugin.",
+      "priorCompany": false
+    }
+  ],
+  "relatedDecisions": [
+    "decisions/fastjson-kt.md",
+    "decisions/yamlkt.md"
+  ],
+  "summary": "Nobody has shipped serialization-extras itself, but Riley owns the custom serializers it would replace. fastjson-kt was rejected for reflection and lack of KMP support, both of which this library avoids; yamlkt shows kotlinx.serialization add-ons have held up well for us."
+}

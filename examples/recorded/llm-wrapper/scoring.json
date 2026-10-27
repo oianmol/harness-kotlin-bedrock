@@ -1,0 +1,89 @@
+{
+  "dimensions": [
+    {
+      "dimension": "Maintenance health",
+      "deductions": [
+        {
+          "points": 6,
+          "reason": "Fewer than 4 releases in the last 12 months",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        },
+        {
+          "points": 8,
+          "reason": "Fewer than 3 active maintainers in the last 12 months",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        },
+        {
+          "points": 6,
+          "reason": "Median issue response time over 14 days",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        },
+        {
+          "points": 4,
+          "reason": "No changelog or migration notes for major versions",
+          "evidence": "README: 'Early days: expect breaking changes.' No changelog mentioned"
+        },
+        {
+          "points": 6,
+          "reason": "Single company controls all commits",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        }
+      ]
+    },
+    {
+      "dimension": "Security posture",
+      "deductions": [
+        {
+          "points": 5,
+          "reason": "Artifacts not signed",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        },
+        {
+          "points": 6,
+          "reason": "Last advisory took more than 30 days to fix",
+          "evidence": "No security policy or advisory history; [NOT FOUND IN SOURCE]"
+        },
+        {
+          "points": 4,
+          "reason": "More than 25 transitive dependencies",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        }
+      ]
+    },
+    {
+      "dimension": "Stack fit",
+      "deductions": [
+        {
+          "points": 6,
+          "reason": "Uses runtime reflection (breaks under R8 or GraalVM native image)",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        },
+        {
+          "points": 5,
+          "reason": "Blocking I/O with no coroutine or suspend API",
+          "evidence": "[NOT FOUND IN SOURCE]"
+        }
+      ]
+    },
+    {
+      "dimension": "Team familiarity",
+      "deductions": [
+        {
+          "points": 10,
+          "reason": "Nobody on the team has shipped production code with it",
+          "evidence": "Team-fit: no matches"
+        },
+        {
+          "points": 4,
+          "reason": "No related past decision in decisions/ to learn from",
+          "evidence": "Team-fit: no related decisions"
+        }
+      ]
+    }
+  ],
+  "risks": [
+    "Most of the intake is blank; the real risk profile is unknown.",
+    "Pre-1.0 with breaking changes expected, in a fast-moving area where provider APIs change monthly."
+  ],
+  "recommendation": "Reject as submitted. This is a verdict on the evidence, not on the library: most deductions are for missing information. Re-submit with release history, maintainer count, signing and the dependency tree filled in. For next sprint's prototype, call one provider's official SDK directly; it needs no approval and keeps the option open."
+}

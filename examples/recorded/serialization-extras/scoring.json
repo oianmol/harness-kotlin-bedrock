@@ -1,0 +1,31 @@
+{
+  "dimensions": [
+    {
+      "dimension": "Maintenance health",
+      "deductions": []
+    },
+    {
+      "dimension": "Security posture",
+      "deductions": []
+    },
+    {
+      "dimension": "Stack fit",
+      "deductions": []
+    },
+    {
+      "dimension": "Team familiarity",
+      "deductions": [
+        {
+          "points": 10,
+          "reason": "Nobody on the team has shipped production code with it",
+          "evidence": "Team-fit: 'Nobody has shipped serialization-extras itself'"
+        }
+      ]
+    }
+  ],
+  "risks": [
+    "Compiler-plugin coupling: each Kotlin upgrade waits for a compatible serialization-extras release.",
+    "The JSON-to-Protobuf bridge is the newest part of the library and the least battle-tested."
+  ],
+  "recommendation": "Adopt for the shared KMP networking module. It removes ~600 lines of custom serializers, adds two dependencies we already ship, and has a strong maintenance and security record. The only gap is first-hand experience; have Riley migrate one endpoint first and keep the old serializers until it has run a release cycle."
+}

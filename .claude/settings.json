@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(knowledge-base/**)",
+      "Read(inbound/**)",
+      "Read(templates/**)",
+      "Bash(./gradlew test*)",
+      "Bash(./gradlew run --args=*--offline*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/notify-on-verdict.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

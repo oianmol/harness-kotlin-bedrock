@@ -1,0 +1,6 @@
+{
+  "openAdvisories": [],
+  "signedArtifacts": "Yes",
+  "transitiveDependencies": "14",
+  "summary": "No published advisories, so there is no track record of how fast fixes ship. Artifacts are signed. The bundled native sqlite3 means sqlite CVEs reach us only when the maintainers re-bundle; that lag is worth tracking."
+}
